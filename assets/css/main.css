@@ -1,11 +1,13 @@
-section{
+section.ejercicio-2{
 	border:  gray 2px solid;
 	margin: 10px;
+	overflow: auto;
 }
 
 div{
 	height: 150px;
 	width: 200px;
+	float: left;
 }
 
 div.amarillo{

@@ -1,23 +1,9 @@
 
-section.ejercicio-1{
+section{
 	border:  gray 2px solid;
 	margin: 20px;
 	display: block;
 }
-
-section.ejercicio-2{
-	border:  gray 2px solid;
-	margin: 10px;
-	overflow: auto;
-}
-
-
-div{
-	height: 150px;
-	width: 200px;
-	float: left;
-}
-
 div.amarillo{
 	background-color: yellow;
 }
@@ -28,5 +14,31 @@ div.azul{
 
 div.rojo{
 	background-color: red;
+	}
+
+section.ejercicio-2{
+	border:  gray 2px solid;
+	margin: 10px;
+	overflow: auto;
 }
+
+
+section.ejercicio-2 div{
+	height: 150px;
+	width: 200px;
+	float: left;
+}
+
+section.ejercicio-3{
+	border:  gray 2px solid;
+	margin: 10px;
+	overflow: auto;
+}
+
+section.ejercicio-3 div{
+	height: 150px;
+	width: 200px;
+	float: right;
+}
+
 

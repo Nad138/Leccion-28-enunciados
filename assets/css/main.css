@@ -1,17 +1,5 @@
 section{
 	border:  gray 2px solid;
 	margin: 10px;
-}
-div{
-	height: 150px;
-	width: 200px;
-}
-div.amarillo{
-	background-color: yellow;
-}
-div.azul{
-	background-color: blue;
-}
-div.rojo{
-	background-color: red;
+	display: block;
 }

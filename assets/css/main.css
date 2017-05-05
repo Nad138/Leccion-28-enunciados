@@ -1,5 +1,23 @@
-section{
+section.ejercicio-3{
 	border:  gray 2px solid;
 	margin: 10px;
-	display: block;
+	overflow: auto;
+}
+
+div{
+	height: 150px;
+	width: 200px;
+	float: right;
+}
+
+div.amarillo{
+	background-color: yellow;
+}
+
+div.azul{
+	background-color: blue;
+}
+
+div.rojo{
+	background-color: red;
 }

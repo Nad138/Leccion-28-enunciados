@@ -1,9 +1,16 @@
-
+/* Estructura básica */
 section{
 	border:  gray 2px solid;
 	margin: 20px;
-	display: block;
+
 }
+
+/* Estructura inicial: divs con sus background */
+div{
+	height: 150px;
+	width: 200px;
+}
+
 div.amarillo{
 	background-color: yellow;
 }
@@ -16,12 +23,14 @@ div.rojo{
 	background-color: red;
 	}
 
+
+/* Ejercicio dos: punto 1 (display: left) */
+
 section.ejercicio-2{
 	border:  gray 2px solid;
 	margin: 10px;
 	overflow: auto;
 }
-
 
 section.ejercicio-2 div{
 	height: 150px;
@@ -29,6 +38,8 @@ section.ejercicio-2 div{
 	float: left;
 }
 
+
+/* Ejercicio tres: punto 2(display:right) */
 section.ejercicio-3{
 	border:  gray 2px solid;
 	margin: 10px;
